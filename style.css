@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+
+.menu-item {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: blueviolet;
+    width: 25%;
+    border: 2px solid yellowgreen;
+    font-family: 'Edu SA Beginner', cursive;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    background-color: rgb(192, 162, 122);
+}
